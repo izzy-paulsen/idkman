@@ -1,0 +1,139 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  padding:15px 40px;
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  color:black;
+}
+
+a:hover {
+  color:gray;
+}
+
+p.title {
+  text-align:center;
+  margin:10px 2px;
+  padding:10px;
+  border-style:solid;
+  border-radius: 10px;
+  font-size:30px;
+  max-width:1050px;
+  margin:auto;
+}
+
+img.rotate {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg), translate(0px, -50px);
+  float:right;
+  padding-bottom:50px;
+  width:40%
+}
+
+p.subtitle {
+  text-align:center;
+  font-size:30px;
+}
+
+div.divs {
+  overflow:hidden;
+  max-width:1050px;
+  margin:auto;
+}
+
+p.left {
+  float:left;
+  padding:30px 70px;
+  border-style:solid;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+div.navbar {
+  max-width:1050px;
+  margin:auto;
+}
+
+img.notrotate {
+  float:left;
+  width:30%;
+  padding-right:40px;
+}
+
+p.right {
+  float:right;
+  padding:30px 70px;
+  border-style:solid;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+img.notrotate2 {
+  float:right;
+  width:30%;
+  padding-right:40px;
+}
+
+img.gal {
+  width:19.471%;
+  border-radius: 10px;
+}
+
+#Gallery {
+  width:100%;
+  max-width:1050px;
+  margin:auto;
+}
+
+img.icon {
+  width:50px;
+  padding:5px;
+}
+
+#ContactInfo {
+  text-align:center;
+}
+
+.gal:hover {
+  transform: scale(1.5);
+}
+
+.question{
+  font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+#submit{
+  font-size: 20px;
+  color: black;
+  border-style:solid;
+  border-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color:white;
+}
+#submit:hover{
+  color:gray;
+}
+
+#Quiz {
+  text-align:center;
+}
